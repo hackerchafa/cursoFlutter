@@ -47,10 +47,10 @@ class MockYouTubeData {
     return [
       PlaylistItem(
         snippet: PlaylistItemSnippet(
-          title: 'Introduction to Flutter - Oficial',
-          videoOwnerChannelTitle: 'Flutter Team',
+          title: 'What is Flutter? | Flutter',
+          videoOwnerChannelTitle: 'Flutter',
           resourceId: ResourceId(
-            videoId: 'fq4N0hgOWzU', // Video real de Flutter en YouTube
+            videoId: 'I9ceqw5Ny-4', // Video oficial "What is Flutter"
           ),
           thumbnails: ThumbnailDetails(
             high: Thumbnail(
@@ -61,10 +61,10 @@ class MockYouTubeData {
       ),
       PlaylistItem(
         snippet: PlaylistItemSnippet(
-          title: 'Flutter Widget of the Week',
-          videoOwnerChannelTitle: 'Flutter Team',
+          title: 'Flutter in 100 seconds',
+          videoOwnerChannelTitle: 'Fireship',
           resourceId: ResourceId(
-            videoId: 'b_sQ9bMltGU', // Video real de Flutter Widget of the Week
+            videoId: 'lHhRhPV--G0', // Video muy popular de Fireship
           ),
           thumbnails: ThumbnailDetails(
             high: Thumbnail(
@@ -75,10 +75,10 @@ class MockYouTubeData {
       ),
       PlaylistItem(
         snippet: PlaylistItemSnippet(
-          title: 'Flutter Tutorial for Beginners',
-          videoOwnerChannelTitle: 'Flutter Team',
+          title: 'Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial',
+          videoOwnerChannelTitle: 'freeCodeCamp.org',
           resourceId: ResourceId(
-            videoId: 'VPvVD8t02U8', // Video tutorial popular de Flutter
+            videoId: 'VPvVD8t02U8', // Curso completo de freeCodeCamp
           ),
           thumbnails: ThumbnailDetails(
             high: Thumbnail(
